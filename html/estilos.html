@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos</title>
     <link rel="stylesheet" href="../css/style.css">
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <style>
         body{
             background-color: antiquewhite;
-         /* font-family: 'Montserrat', sans-serif; */
+         font-family: 'Montserrat', sans-serif; 
+         /*font-family: 'Montserrat', sans-serif; */
         }
         a{
             text-decoration: none;
@@ -18,8 +19,14 @@
     </style>
 </head>
 <body>
+    <h2 id="title_box">BOX MODEL</h2>
+    <!-- h2#title_box{BOX MODEL} -->
+    <div id="box_father">
+        <div id="box_model"></div>
+    </div>
+    <br>
     <h1 style="color: red;background-color:rgb(132, 0, 255);">BIENVENIDO A ESTILOS</h1>
-    <a href="../index.html">VOLVER ATRAS</a>
+    <a style="color: blue;" href="../index.html"><h1>VOLVER ATRAS</h1></a>
     <a href="#">opcion 1</a>
     <a href="#">opcion 1</a>
     <a href="#">opcion 1</a>
@@ -27,23 +34,24 @@
     <ul>
         <li id="option_one" class="group_options group_class" name="group_options">Palabra 1</li>
         <li id="option_two" class="group_options group_class" name="group_options">Palabra 2</li>
-        <li id="option_trhee" class="group_options " name="group_options">Palabra 3</li>
-        <li id="option_four" class="group_options " name="group_options">Palabra 4</li>
-        <li id="option_five" class="group_options " name="group_options">Palabra 5</li>
+        <li id="option_trhee" class="group_options group_class" name="group_options">Palabra 3</li>
+        <li id="option_four" class="group_options group_class" name="group_options">Palabra 4</li>
+        <li id="option_five" class="group_options group_class" name="group_options">Palabra 5</li>
     </ul> 
-    <label for="Sexo">Sexo:</label><br>
+    <br>
+    <label for="Sexo"><h3>Sexo:</h3></label>
     <label for="mas">Masculino</label><input type="radio" name="sexo"><br>
     <label for="fem">Femenino</label><input type="radio" name="sexo"><br>
-
+    <br>
     <input type="text" disabled>
     <input type="text">
     <button>ENVIAR</button>
     <br><br>
     <div id="papa">
         <div class="hermanos"></div>
-        <span>Gerardo Duran</span><br>
+        <span>Gerardo</span><br>
         <span>Duran Baena</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecatidignissimos? In voluptas qui accusantium obcaecati!
+        <p>Lorem 
         </p>
         <a href="#">Hermanos</a>
         <div class="hermanos"></div>
